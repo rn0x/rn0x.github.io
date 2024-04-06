@@ -1,0 +1,59 @@
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bottombar);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    margin-bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: #00000033 0px 2px 8px 0px;
+}
+
+.bottombar {
+    display: block;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+
+}
+.bottombar:hover {
+    background-color: var(--bottombarHover);
+}
+
+.bottombar:first-child {
+    margin-right: 0px;
+}
+
+.bottombar:last-child {
+    margin-left: 0px;
+}
+
+.bottombar i{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bottombar p{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 300px) {
+    .bottombar p{
+        display: none;
+    }
+}

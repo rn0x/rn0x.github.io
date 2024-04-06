@@ -1,0 +1,15 @@
+{
+  "name": "rn0x.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start -s ./ --watch --port 8080 --ui-port 8081"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^3.0.2"
+  }
+}

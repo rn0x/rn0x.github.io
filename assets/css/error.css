@@ -1,0 +1,26 @@
+#e404 {
+    font-size: 55px;
+    font-weight: 800;
+    font-family: monospace;
+    color: var(--specialColor);
+}
+
+#gotohome {
+    display: block;
+    background-color: var(--specialColor);
+    width: 200px;
+    padding: 5px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--borderColorMain);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    color: #fff;
+}
+
+#gotohome:hover {
+    background-color: var(--specialColorHover);
+}

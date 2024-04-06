@@ -1,0 +1,25 @@
+[data-theme="light"] {
+    --topbar: #f6f8fa;
+    --bottombar: #010409a7;
+    --bottombarHover: #7aa2ab8f;
+    --background: #ffffff;
+    --fontColorMain: #666a6e;
+    --borderColorMain: #d9dfe5;
+    --divMian: #dee3e8;
+    --divMianHover: #cdd1d4;
+    --specialColor:#7aa2ab;
+    --specialColorHover:#5b8791;
+}
+
+[data-theme="dark"] {
+    --topbar: #010409;
+    --bottombar: #010409a7;
+    --bottombarHover: #7aa2ab8f;
+    --background: #0d1117;
+    --fontColorMain: #8d97a4;
+    --borderColorMain: #242930;
+    --divMian: #21262d;
+    --divMianHover: #191d22;
+    --specialColor:#7aa2ab;
+    --specialColorHover:#5b8791;
+}

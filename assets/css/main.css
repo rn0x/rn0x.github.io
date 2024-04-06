@@ -1,0 +1,94 @@
+@import url('header.css');
+@import url('footer.css');
+@import url('fonts.css');
+@import url('variables.css');
+@import url('dark.min.css');
+@import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
+
+
+#content {
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+#copyright {
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 90px;
+    text-align: center;
+    direction: ltr;
+}
+
+body {
+    font-family: monospace;
+    background-color: var(--background);
+    color: var(--fontColorMain);
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: center;
+}
+
+* {
+    -webkit-tap-highlight-color: #00000000;
+    font-family: 'Vazir Matn', Arial, sans-serif;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+a:focus {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+#loading {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#themeToggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: var(--fontColorMain);
+    font-size: 20px;
+    background-color: var(--topbar);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--borderColorMain);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+#themeToggle:hover {
+    background-color: var(--specialColor);
+    color: #ffffff;
+    border: none;
+}
+
+/* تحديد الأيقونة عندما يكون المود ليلي */
+[data-theme="dark"] #themeToggle i {
+    color: rgb(255, 255, 110); /* يمكنك تغيير هذا اللون حسب تفضيلك */
+}
+
+#date {
+    display: block;
+    font-size: 10px;
+    color: var(--specialColor);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

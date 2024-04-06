@@ -1,0 +1,116 @@
+#posts_content {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--fontColorMain);
+    padding: 20px;
+    background-color: var(--topbar);
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--borderColorMain);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* تنسيق روابط */
+#posts_content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#posts_content a:hover {
+    text-decoration: underline;
+}
+
+/* تنسيق عناوين */
+#posts_content h1,
+#posts_content h2,
+#posts_content h3,
+#posts_content h4,
+#posts_content h5,
+#posts_content h6 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#posts_content h1 {
+    font-size: 20px;
+}
+
+#posts_content h2 {
+    font-size: 17px;
+}
+
+#posts_content h3 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+#posts_content p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* تنسيق قوائم */
+#posts_content ul,
+#posts_content ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+#posts_content ul li,
+#posts_content ol li {
+    margin-bottom: 10px;
+}
+
+/* تنسيق مقاطع النص المعتمدة */
+#posts_content blockquote {
+    margin: 0;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-left: 5px solid #ccc;
+}
+
+
+
+/* تنسيق صور */
+#posts_content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* تنسيق جداول */
+#posts_content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#posts_content th,
+#posts_content td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#posts_content th {
+    background-color: #f2f2f2;
+}
+
+/* تنسيق الأكواد البرمجية داخل عناصر pre */
+#posts_content pre {
+    padding: 10px;
+    direction: ltr;
+    overflow: auto;
+    font-size: 15px;
+    text-align: left;
+}
+
+#posts_content pre code{
+    border-radius: 15px;
+    word-break: break-all;
+    font-family: Consolas, monospace;
+}
